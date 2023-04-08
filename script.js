@@ -10,3 +10,4 @@ rangeInput.addEventListener("input", () => {
   output.innerHTML = numbers.join(", ");
   sortedList.innerHTML = sortedNumbers.map(num => `<li>${num}</li>`).join("");
 });
+// método utilizado: bubble sort
